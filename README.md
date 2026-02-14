@@ -7,7 +7,7 @@ This repository contains my solutions for **CSL7110 Assignment 1**, split into t
 - **Part A:** Apache Hadoop / MapReduce (Java)
 - **Part B:** Apache Spark (PySpark)
 
-The assignment focuses on running the classic **WordCount** job on Hadoop and then doing text analytics on the Project Gutenberg books dataset using Spark (metadata extraction + TF-IDF + similarity + a simple influence network). :contentReference[oaicite:0]{index=0}
+The assignment focuses on running the classic **WordCount** job on Hadoop and then doing text analytics on the Project Gutenberg books dataset using Spark (metadata extraction + TF-IDF + similarity + a simple influence network).
 
 ---
 
@@ -47,7 +47,6 @@ In my runs, I loaded it into Spark as a DataFrame with columns like:
 - Verified Hadoop + HDFS setup by running the standard **WordCount** example
 - Implemented/edited `WordCount.java` using Hadoop `Writable` types
 - Ran WordCount on sample input and on the required `200.txt` file
-- (Extra) Measured job execution time and experimented with input split size config as asked
 
 ### Typical run flow 
 > Commands may vary slightly depending on local installation paths.
