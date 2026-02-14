@@ -28,7 +28,7 @@ The assignment focuses on running the classic **WordCount** job on Hadoop and th
 ### For Spark (Part B)
 - Java 8+
 - Apache Spark
-- Python 3 + PySpark
+- Python 3.11 + PySpark
 
 ---
 
